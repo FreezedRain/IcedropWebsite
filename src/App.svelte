@@ -1,5 +1,7 @@
 <script>
 	import IcedropLogo from "./IcedropLogo.svelte";
+	import Router from 'svelte-spa-router';
+	import routes from './routes.js';
 
 	export let name;
 </script>
@@ -8,20 +10,25 @@
 	<div class="main-body">
 		<div class="header">
 			<div class="nav-menu">
+				<div class="menu-left">
 				<div class="menu-option">
-					ABOUT
+					<a href="/#/about" use:Router.link>
+						ABOUT</a>
 				</div>
 				<div class="menu-option">
+					<a href="/#/games" use:Router.link>
 					GAMES
+					</a>
 				</div>
-				<div class="menu-option">
-					CONTACT
 				</div>
 
 				<div class="filler">
+					<a href="/" use:Router.link>
+						<img src="images/logo_imageonly.png" class="logo_top {window.location.hash === ''?'hidden':''}"/>
+					</a>
 
 				</div>
-
+				<div class="menu-right">
 				<div class="menu-option social">
 					B
 				</div>
@@ -30,11 +37,12 @@
 				</div>
 				<div class="menu-option social">
 					B
+				</div>
 				</div>
 			</div>
 		</div>
 		<div class="content">
-			<IcedropLogo/>
+			<Router {routes}/>
 		</div>
 	</div>
 </main>
@@ -46,6 +54,9 @@
 		margin: 0 0;
 		height: 100%;
 		overflow: hidden;
+		overflow-y: scroll;
+
+		background-color: #111111;
 	}
 
 	h1 {
@@ -87,6 +98,26 @@
 		justify-content: center;
 	}
 
+	.menu-left, .menu-right {
+		width: 30%;
+		display: flex;
+	}
 
+	.menu-right {
+		justify-content: right;
+	}
+
+	.logo_top {
+		height: 80px;
+	}
+
+	.logo_top:hover {
+		transform: scale(1.1);
+		cursor: pointer;
+	}
+
+	.hidden {
+		opacity: 0;
+	}
 
 </style>

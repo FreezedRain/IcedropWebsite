@@ -21,7 +21,7 @@
 <style>
 
     #logo {
-        transform: translate(-190px) scale(1.5);
+        transform: translate(-215px) scale(1.5);
     }
 
     #icedrop_topleft {
@@ -36,7 +36,6 @@
     @keyframes tl_move {
         0% {transform: translate(0)}
         50% {transform: translate(-5px, -5px)}
-        0% {transform: translate(0)}
     }
 
     #tl_transform {
@@ -46,7 +45,6 @@
     @keyframes tr_move {
         0% {transform: translate(0)}
         50% {transform: translate(5px, -5px)}
-        0% {transform: translate(0)}
     }
 
     #tr_transform {
@@ -56,7 +54,6 @@
     @keyframes br_move {
         0% {transform: translate(0)}
         50% {transform: translate(5px, 5px)}
-        0% {transform: translate(0)}
     }
 
     #br_transform {
@@ -66,7 +63,6 @@
     @keyframes bc_move {
         0% {transform: translate(0)}
         50% {transform: translate(0px, 7.5px)}
-        0% {transform: translate(0)}
     }
 
     #bc_transform {
@@ -76,7 +72,6 @@
     @keyframes bl_move {
         0% {transform: translate(0)}
         50% {transform: translate(-5px, 5px)}
-        0% {transform: translate(0)}
     }
 
     #bl_transform {
