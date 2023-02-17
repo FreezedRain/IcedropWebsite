@@ -1,6 +1,7 @@
 <script>
 	import IcedropLogo from "./IcedropLogo.svelte";
 	import Router from 'svelte-spa-router';
+	import {location} from 'svelte-spa-router'
 	import routes from './routes.js';
 
 	export let name;
@@ -24,9 +25,10 @@
 
 				<div class="filler">
 					<a href="/" use:Router.link>
-						<img src="images/logo_imageonly.png" class="logo_top {window.location.hash === ''?'hidden':''}"/>
+						{#if $location != '/'}
+							<img src="images/logo_imageonly.png" class="logo_top"/>
+						{/if}
 					</a>
-
 				</div>
 				<div class="menu-right">
 				<div class="menu-option social">
