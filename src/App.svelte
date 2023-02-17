@@ -26,7 +26,7 @@
 				<div class="filler">
 					<a href="/" use:Router.link>
 						{#if $location != '/'}
-							<img src="images/logo_imageonly.png" class="logo_top"/>
+							<img src="images/icedrop_new_horizontal.png" class="logo_top"/>
 						{/if}
 					</a>
 				</div>
@@ -69,11 +69,11 @@
 	}
 
 	.main-body{
-		background-color: #111111;
+		background-color: #1E2026;
 		height: 100%;
 		display: flex;
 		flex-direction: column;
-		color: #dddddd;
+		color: #C0D6E2;
 	}
 
 	.header {
@@ -110,7 +110,8 @@
 	}
 
 	.logo_top {
-		height: 80px;
+		height: 100px;
+		padding-top: 8px;
 	}
 
 	.logo_top:hover {

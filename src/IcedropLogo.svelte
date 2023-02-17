@@ -106,15 +106,15 @@
     }
 
     @keyframes example {
-        0% {border-top-color: grey;}
-        50% {border-top-color: white;}
-        100% {border-top-color: grey;}
+        0% {border-top-color: #4F778E;}
+        50% {border-top-color: #C0D6E2;}
+        100% {border-top-color: #4F778E;}
     }
 
     @keyframes example2 {
-        0% {border-bottom-color: grey;}
-        50% {border-bottom-color: white;}
-        100% {border-bottom-color: grey;}
+        0% {border-bottom-color: #4F778E;}
+        50% {border-bottom-color: #C0D6E2;}
+        100% {border-bottom-color: #4F778E;}
     }
 
     #icedrop_bottomright {
