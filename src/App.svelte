@@ -12,11 +12,11 @@
 			<div class="nav-menu">
 				<div class="menu-left">
 				<div class="menu-option">
-					<a href="/#/about">
+					<a href="/#/about" class="menu-option-link">
 						ABOUT</a>
 				</div>
 				<div class="menu-option">
-					<a href="/#/games">
+					<a href="/#/games" class="menu-option-link">
 					GAMES
 					</a>
 				</div>
@@ -30,13 +30,13 @@
 					</a>
 				</div>
 				<div class="menu-right">
-				<div class="menu-option social">
+				<div class="social">
 					<img src="images/twitter.png">
 				</div>
-				<div class="menu-option social">
+				<div class="social">
 					<img src="images/tik-tok.png">
 				</div>
-				<div class="menu-option social">
+				<div class="social">
 					<img src="images/email.png">
 				</div>
 				</div>
@@ -86,7 +86,8 @@
 	.menu-option {
 		font-weight: bold;
 		font-size: 1.5em;
-		padding: 1em;
+		padding: 0.5em;
+		margin: 0.5em;
 	}
 
 	.filler {
@@ -117,6 +118,10 @@
 		cursor: pointer;
 	}
 
+	.social {
+		padding: 1em;
+	}
+
 	.social img {
 		width: 32px;
 		filter: invert(94%) sepia(2%) saturate(4420%) hue-rotate(174deg) brightness(89%) contrast(100%);
@@ -128,6 +133,10 @@
 	.social img:hover {
 		transform: scale(1.1);
 		filter: invert(100%);
+	}
+
+	.menu-option-link:hover {
+		color: white;
 	}
 
 </style>
