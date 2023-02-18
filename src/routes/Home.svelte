@@ -1,13 +1,13 @@
 <script>
-    import IcedropLogo from "../IcedropLogo.svelte";
+    import IcedropLogo from "../IcedropLogoCSS.svelte";
+    import IcedropLogoSVG from "../IcedropLogoSVG.svelte";
 </script>
 
 <div class="home">
-    <IcedropLogo/>
+    <IcedropLogoSVG/>
 </div>
 
 <style>
     .home {
-        padding-top: 64px;
     }
 </style>

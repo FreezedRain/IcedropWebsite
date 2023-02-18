@@ -1,5 +1,4 @@
 <script>
-	import IcedropLogo from "./IcedropLogo.svelte";
 	import Router from 'svelte-spa-router';
 	import {location} from 'svelte-spa-router'
 	import routes from './routes.js';
@@ -13,32 +12,32 @@
 			<div class="nav-menu">
 				<div class="menu-left">
 				<div class="menu-option">
-					<a href="/#/about" use:Router.link>
+					<a href="/#/about">
 						ABOUT</a>
 				</div>
 				<div class="menu-option">
-					<a href="/#/games" use:Router.link>
+					<a href="/#/games">
 					GAMES
 					</a>
 				</div>
 				</div>
 
 				<div class="filler">
-					<a href="/" use:Router.link>
+					<a href="/">
 						{#if $location != '/'}
-							<img src="images/icedrop_new_horizontal.png" class="logo_top"/>
+							<img src="images/icedrop_new_horizontal.svg" class="logo_top"/>
 						{/if}
 					</a>
 				</div>
 				<div class="menu-right">
 				<div class="menu-option social">
-					B
+					<img src="images/twitter.png">
 				</div>
 				<div class="menu-option social">
-					B
+					<img src="images/tik-tok.png">
 				</div>
 				<div class="menu-option social">
-					B
+					<img src="images/email.png">
 				</div>
 				</div>
 			</div>
@@ -58,7 +57,7 @@
 		overflow: hidden;
 		overflow-y: scroll;
 
-		background-color: #111111;
+		background-color: #1E2026;
 	}
 
 	h1 {
@@ -115,12 +114,20 @@
 	}
 
 	.logo_top:hover {
-		transform: scale(1.1);
 		cursor: pointer;
 	}
 
-	.hidden {
-		opacity: 0;
+	.social img {
+		width: 32px;
+		filter: invert(94%) sepia(2%) saturate(4420%) hue-rotate(174deg) brightness(89%) contrast(100%);
+		cursor: pointer;
+
+		transition: 0.1s;
+	}
+
+	.social img:hover {
+		transform: scale(1.1);
+		filter: invert(100%);
 	}
 
 </style>
