@@ -1,5 +1,5 @@
-import About from './Routes/About.svelte';
-import Games from './Routes/Games.svelte';
+import About from './routes/About.svelte';
+import Games from './routes/Games.svelte';
 import Home from "./routes/Home.svelte";
 
 const routes = {
