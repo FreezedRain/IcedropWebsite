@@ -20,24 +20,29 @@
 					GAMES
 					</a>
 				</div>
+					<div class="menu-option">
+						<a href="/#/press-kit" class="menu-option-link">
+							PRESS KIT
+						</a>
+					</div>
 				</div>
 
 				<div class="filler">
 					<a href="/">
 						{#if $location != '/'}
-							<img src="images/icedrop_new_horizontal.svg" class="logo_top"/>
+							<img src="images/icedrop_new_horizontal.png" class="logo_top"/>
 						{/if}
 					</a>
 				</div>
 				<div class="menu-right">
 				<div class="social">
-					<img src="images/twitter.png">
+					<a href="https://twitter.com/IcedropGames" target="_blank"><img src="images/twitter.png"></a>
 				</div>
 				<div class="social">
 					<img src="images/tik-tok.png">
 				</div>
 				<div class="social">
-					<img src="images/email.png">
+					<a href="mailto:icedropgames@gmail.com"><img src="images/email.png"></a>
 				</div>
 				</div>
 			</div>
@@ -110,7 +115,7 @@
 	}
 
 	.logo_top {
-		height: 100px;
+		height: 80px;
 		padding-top: 8px;
 	}
 
