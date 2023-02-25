@@ -10,7 +10,7 @@
 	<div class="main-body">
 		<div class="header">
 			<div class="nav-menu">
-				<div class="menu-left" style="visibility: hidden">
+				<div class="menu-left">
 				<div class="menu-option">
 					<a href="/#/about" class="menu-option-link">
 						ABOUT</a>
@@ -34,7 +34,7 @@
 						{/if}
 					</a>
 				</div>
-				<div class="menu-right" style="visibility: hidden">
+				<div class="menu-right">
 				<div class="social">
 					<a href="https://twitter.com/IcedropGames" target="_blank"><img src="images/twitter.png"></a>
 				</div>
