@@ -15,9 +15,10 @@
             <div class="t3">Info/Press Contact</div>
             <div class="presskit-p">icedropgames@gmail.com</div>
             <div class="t3">Studio Socials</div>
-            <div class="presskit-p">-</div>
+            <div class="presskit-p">twitter.com/icedropgames</div>
             <div class="t3">Founder Socials</div>
-            <div class="presskit-p">-</div>
+            <div class="presskit-p">twitter.com/freezed_ice</div>
+            <div class="presskit-p">twitter.com/raindrinker_dev</div>
 
         </div>
         <div class="presskit-col-2">
@@ -40,6 +41,16 @@
                <br> After working on a couple gamedev companies, mainly 2 years with Appnormals developing two big indie projects (Terracotta & Frank&Drake), he took to the road to pursue
                 his own projects as a freelance, while teaching some programming game development and pixelart courses at university.
             </div>
+        </div>
+    </div>
+    <div class="presskit-logos">
+        <div class="t2">Logos</div>
+        <div class="logos-grid">
+            <img src="images/icedrop_new_horizontal.png"/>
+            <img src="images/icedrop_h_simple_darkbg.png"/>
+            <img src="images/icedrop_h_simple_lightbg.png"/>
+            <img src="images/icedrop_square.png"/>
+            <img src="images/icedrop_icon.png"/>
         </div>
     </div>
 </div>
@@ -106,5 +117,26 @@
     .presskit-p.block {
 
         text-align: justify;
+    }
+
+    .presskit-logos {
+        padding-top: 64px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .logos-grid {
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 32px;
+    }
+
+    .logos-grid img {
+        max-height: 300px;
+        margin: 32px;
+        border-radius: 8px;
+        overflow: hidden;
     }
 </style>
