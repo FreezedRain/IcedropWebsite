@@ -39,7 +39,7 @@
 					<a href="https://twitter.com/IcedropGames" target="_blank"><img src="images/twitter.png"></a>
 				</div>
 				<div class="social">
-					<img src="images/tik-tok.png">
+					<a href="https://www.tiktok.com/@icedropgames" target="_blank"> <img src="images/tik-tok.png"></a>
 				</div>
 				<div class="social">
 					<a href="mailto:icedropgames@gmail.com"><img src="images/email.png"></a>
@@ -115,7 +115,7 @@
 	}
 
 	.logo_top {
-		height: 80px;
+		height: 100px;
 		padding-top: 8px;
 	}
 

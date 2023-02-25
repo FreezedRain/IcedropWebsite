@@ -15,10 +15,10 @@
             <div class="t3">Info/Press Contact</div>
             <div class="presskit-p">icedropgames@gmail.com</div>
             <div class="t3">Studio Socials</div>
-            <div class="presskit-p">twitter.com/icedropgames</div>
+            <div class="presskit-p"><a href="https://twitter.com/icedropgames" target="_blank"><u>twitter.com/icedropgames</u></a></div>
             <div class="t3">Founder Socials</div>
-            <div class="presskit-p">twitter.com/freezed_ice</div>
-            <div class="presskit-p">twitter.com/raindrinker_dev</div>
+            <div class="presskit-p"><a href="https://twitter.com/freezed_ice" target="_blank"> <u>twitter.com/freezed_ice</u></a></div>
+            <div class="presskit-p"><a href="https://twitter.com/raindrinker_dev" target="_blank"><u>twitter.com/raindrinker_dev</u></a></div>
 
         </div>
         <div class="presskit-col-2">
@@ -33,13 +33,14 @@
                 </div>
             <div class="t3">Founder Bios</div>
             <div class="presskit-p block">
-                <b>Arseny Dremin 'FreezedIce'</b> is a silly goose.
+                <b>Arseny Dremin 'FreezedIce'</b> is a game programmer with a keen eye for game design and technical art.
+                He learnt game development through game jams and is currently working as a gameplay programmer at Italic Pig on their upcoming game Paleo Pines.
             </div>
             <div class="presskit-p block">
                 <b>Ferran Ruiz Sala 'Raindrinker'</b> is a game developer from Barcelona who has a streak for pixelart, art in general and design.
-                Very passionate about game jams for a while, he made the switch from web development to the gamedev industry during 2020.
+                Very passionate about game jams, he made the switch from web development to the gamedev industry during 2020.
                <br> After working on a couple gamedev companies, mainly 2 years with Appnormals developing two big indie projects (Terracotta & Frank&Drake), he took to the road to pursue
-                his own projects as a freelance, while teaching some programming game development and pixelart courses at university.
+                his own projects as a freelance, while teaching some programming & pixelart courses at university.
             </div>
         </div>
     </div>

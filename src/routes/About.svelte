@@ -1,18 +1,5 @@
 <div class="about-main">
 
-    <div class="text">
-        Icedrop Games is a remote two-person gamedev team that makes little interesting games.
-
-        <br><br>
-
-        We believe in games that are like a frozen raindrop or a jewel: <br>playful little crafted objects made with care that make you think and wonder.
-
-        <br><br>
-
-        We are working on a few <a href="/#/games" class="menu-option-link"><b>projects</b></a> we're very excited about.
-    </div>
-
-
 
     <div class="people">
         <div class="person">
@@ -44,6 +31,24 @@
             </div>
         </div>
     </div>
+
+    <div class="text">
+        <b>Icedrop Games</b> is a remote two-person gamedev team that makes little interesting games.
+
+        <br><br>
+
+        We believe in games that are like a frozen raindrop or a jewel: <br>playful little crafted objects made with care that make you think and wonder.
+
+        <br><br>
+
+        We are working on a few <a href="/#/games" class="menu-option-link"><b>projects</b></a> we're very excited about!
+
+        Please follow our socials, and feel free to <a href="mailto:icedropgames@gmail.com"><b>contact</b></a> us for any inquiries.
+    </div>
+
+
+
+
 </div>
 
 <style>
@@ -56,7 +61,7 @@
     }
 
     .text {
-        padding: 64px;
+        padding: 62px;
         font-size: 28px;
         max-width: 1000px;
         text-align: center;
@@ -66,7 +71,7 @@
         display: flex;
         align-content: center;
         justify-content: center;
-        padding-bottom: 128px;
+        padding-top: 32px;
     }
 
     .person {
