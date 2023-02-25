@@ -140,4 +140,16 @@
         border-radius: 8px;
         overflow: hidden;
     }
+
+    @media only screen and (max-width: 800px) {
+
+        .presskit-main {
+            flex-direction: column-reverse;
+            width: 80%;
+        }
+
+        .t1 {
+            padding-top: 32px;
+        }
+    }
 </style>

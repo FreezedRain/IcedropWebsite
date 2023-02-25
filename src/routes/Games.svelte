@@ -172,4 +172,17 @@
         justify-content: center;
     }
 
+    @media only screen and (max-width: 800px) {
+
+        .game {
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .game .game-img {
+            max-width: 400px;
+            height: auto;
+        }
+    }
+
 </style>

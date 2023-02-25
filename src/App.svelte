@@ -35,15 +35,15 @@
 					</a>
 				</div>
 				<div class="menu-right">
-				<div class="social">
-					<a href="https://twitter.com/IcedropGames" target="_blank"><img src="images/twitter.png"></a>
-				</div>
-				<div class="social">
-					<a href="https://www.tiktok.com/@icedropgames" target="_blank"> <img src="images/tik-tok.png"></a>
-				</div>
-				<div class="social">
-					<a href="mailto:icedropgames@gmail.com"><img src="images/email.png"></a>
-				</div>
+					<div class="social">
+						<a href="https://twitter.com/IcedropGames" target="_blank"><img src="images/twitter.png"></a>
+					</div>
+					<div class="social">
+						<a href="https://www.tiktok.com/@icedropgames" target="_blank"> <img src="images/tik-tok.png"></a>
+					</div>
+					<div class="social">
+						<a href="mailto:icedropgames@gmail.com"><img src="images/email.png"></a>
+					</div>
 				</div>
 			</div>
 		</div>
@@ -86,6 +86,7 @@
 
 	.nav-menu {
 		display: flex;
+		position: relative;
 	}
 
 	.menu-option {
@@ -108,11 +109,59 @@
 	.menu-left, .menu-right {
 		width: 30%;
 		display: flex;
+		max-width: 100%;
+		flex-direction: row;
+
+		white-space: nowrap;
 	}
 
 	.menu-right {
 		justify-content: right;
 	}
+
+	@media only screen and (max-width: 1100px) {
+
+		.menu-left {
+			flex-direction: column;
+		}
+
+		.menu-left .menu-option {
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+
+	}
+
+	@media only screen and (max-width: 800px) {
+
+		.menu-right, .menu-left {
+			justify-content: center;
+			font-size: 16px;
+			flex-wrap: nowrap;
+		}
+
+		.filler {
+			flex-grow: 0;
+		}
+
+		.nav-menu {
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
+		.menu-option {
+			margin: 0.2em 0.4em !important;
+			padding: 0.2em 0.4em !important;
+		}
+
+		.menu-left {
+			flex-direction: row;
+		}
+
+	}
+
+
 
 	.logo_top {
 		height: 100px;
