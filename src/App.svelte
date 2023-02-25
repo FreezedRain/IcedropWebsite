@@ -123,6 +123,8 @@
 
 		.menu-left {
 			flex-direction: column;
+			justify-content: left;
+			align-items: start;
 		}
 
 		.menu-left .menu-option {
@@ -157,6 +159,8 @@
 
 		.menu-left {
 			flex-direction: row;
+			justify-content: center;
+			align-items: center;
 		}
 
 	}

@@ -61,10 +61,10 @@
     }
 
     .text {
-        padding: 62px;
         font-size: 28px;
         max-width: 1000px;
         text-align: center;
+        padding: 64px 64px 128px;
     }
 
     .people {
@@ -115,6 +115,18 @@
     .social img:hover {
         transform: scale(1.1);
         filter: invert(100%);
+    }
+
+    @media only screen and (max-width: 800px) {
+
+        .person {
+            max-width: 50%;
+            width: auto;
+        }
+
+        .text {
+            padding: 64px 16px 64px;
+        }
     }
 
 </style>

@@ -130,6 +130,13 @@
         animation: br_move 2.5s alternate infinite ease-in-out -1.5s;
     }
 
+    @media only screen and (max-width: 800px) {
+
+        .logo-svg {
+            transform: scale(0.8);
+        }
+    }
+
 
 
 </style>

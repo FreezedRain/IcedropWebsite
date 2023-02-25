@@ -180,7 +180,7 @@
         }
 
         .game .game-img {
-            max-width: 400px;
+            max-width: 300px;
             height: auto;
         }
     }

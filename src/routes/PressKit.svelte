@@ -151,5 +151,17 @@
         .t1 {
             padding-top: 32px;
         }
+
+        .logos-grid img {
+            max-width: 90vw;
+            margin: 32px;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .logos-grid {
+            padding: 32px;
+            justify-content: center;
+        }
     }
 </style>
