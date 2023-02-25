@@ -1,100 +1,120 @@
-<div class="about">
-    <div class="presskit-main">
-        <div class="presskit-col-1">
-            <div class="t2">Fact Sheet</div>
+<div class="about-main">
 
-            <div class="t3">Studio Name</div>
-            <div class="presskit-p">Icedrop Games</div>
-            <div class="t3">Website</div>
-            <div class="presskit-p">icedropgames.com</div>
-            <div class="t3">Founders</div>
-            <div class="presskit-p">Arseny Dremin 'FreezedIce'</div>
-            <div class="presskit-p">Ferran Ruiz Sala 'Raindrinker'</div>
-            <div class="t3">Founding date</div>
-            <div class="presskit-p">Start of 2023</div>
-            <div class="t3">Info/Press Contact</div>
-            <div class="presskit-p">icedropgames@gmail.com</div>
-            <div class="t3">Studio Socials</div>
-            <div class="presskit-p">-</div>
-            <div class="t3">Founder Socials</div>
-            <div class="presskit-p">-</div>
 
-        </div>
-        <div class="presskit-col-2">
-            <div class="t1">Icedrop Games</div>
-            <div class="t3">Studio Bio</div>
-            <div class="presskit-p block">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt suscipit felis vitae euismod. Sed eget ultrices erat, sed sollicitudin justo. Donec mollis consequat est iaculis congue. Integer vel lorem in nisl pharetra laoreet. Proin maximus dolor sapien, eu maximus nunc lobortis vel. Curabitur sit amet sollicitudin massa, nec malesuada tortor. Curabitur sollicitudin mauris ac arcu pellentesque, in porta purus pellentesque. Pellentesque mattis eleifend libero eget fermentum. Nunc orci magna, blandit efficitur ante ultrices, imperdiet mattis arcu. In hac habitasse platea dictumst. Vestibulum quis tempus nisi, iaculis porta nunc. Morbi in accumsan magna.
+    <div class="people">
+        <div class="person">
+            <img src="images/freezedice.png" class="person-img"/>
+            <div class="person-name">Arseny Dremin</div>
+            <div class="person-nick">FreezedIce</div>
+
+            <div class="icons">
+                <div class="social">
+                    <a href="https://www.freezedice.com/" target="_blank"> <img src="images/website.png"></a>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/freezed_ice" target="_blank"><img src="images/twitter.png"></a>
+                </div>
             </div>
-            <div class="t3">Founder Bios</div>
-            <div class="presskit-p block">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer tincidunt suscipit felis vitae euismod. Sed eget ultrices erat, sed sollicitudin justo. Donec mollis consequat est iaculis congue. Integer vel lorem in nisl pharetra laoreet. Proin maximus dolor sapien, eu maximus nunc lobortis vel. Curabitur sit amet sollicitudin massa, nec malesuada tortor. Curabitur sollicitudin mauris ac arcu pellentesque, in porta purus pellentesque. Pellentesque mattis eleifend libero eget fermentum. Nunc orci magna, blandit efficitur ante ultrices, imperdiet mattis arcu. In hac habitasse platea dictumst. Vestibulum quis tempus nisi, iaculis porta nunc. Morbi in accumsan magna.
+        </div>
+        <div class="person">
+            <img src="images/raindrinker.png" class="person-img"/>
+            <div class="person-name">Ferran Ruiz Sala</div>
+            <div class="person-nick">Raindrinker</div>
+
+            <div class="icons">
+                <div class="social">
+                    <a href="https://www.raindrinker.com/" target="_blank"><img src="images/website.png"></a>
+                </div>
+                <div class="social">
+                    <a href="https://twitter.com/Raindrinker_dev" target="_blank"><img src="images/twitter.png"></a>
+                </div>
             </div>
         </div>
     </div>
+
+    <div class="text">
+        <b>Icedrop Games</b> is a remote two-person gamedev team that makes little interesting games.
+
+        <br><br>
+
+        We believe in games that are like a frozen raindrop or a jewel: <br>playful little crafted objects made with care that make you think and wonder.
+
+        <br><br>
+
+        We are working on a few <a href="/#/games" class="menu-option-link"><b>projects</b></a> we're very excited about!
+
+        Please follow our socials, and feel free to <a href="mailto:icedropgames@gmail.com"><b>contact</b></a> us for any inquiries.
+    </div>
+
+
+
+
 </div>
 
 <style>
-    .about {
-        width: 100%;
+
+    .about-main {
+        position: relative;
+        display: flex;
         flex-direction: column;
-        display: flex;
         align-items: center;
-        justify-content: center;
-        padding-top: 64px;
-        padding-bottom: 64px;
-
-        text-align: left;
     }
-    .presskit-main {
+
+    .text {
+        padding: 62px;
+        font-size: 28px;
+        max-width: 1000px;
+        text-align: center;
+    }
+
+    .people {
         display: flex;
-        width: 50%;
-        flex-direction: row;
+        align-content: center;
+        justify-content: center;
+        padding-top: 32px;
     }
 
-    .presskit-col-1 {
-        flex-grow: 1;
-        flex-shrink: 1;
-        align-items: start;
-        justify-content: start;
-        padding-right: 32px;
-        flex-basis: 0;
-        padding-top: 22px;
+    .person {
+        display: flex;
+        flex-direction: column;
+        width: 400px;
+        justify-content: center;
+        align-items: center;
     }
 
-    .presskit-col-2 {
-        flex-grow: 2;
-        flex-shrink: 1;
-        flex-basis: 0;
+    .person-img {
+        width: 200px;
     }
 
-    .t1 {
-        font-size: 64px;
+    .person-name {
+        color: #4F778E;
+    }
+
+    .person-nick {
+        font-size: 24px;
         font-weight: bold;
     }
 
-    .t2 {
-        font-size: 42px;
-        font-weight: bold;
-    }
-
-    .t3 {
-        font-size: 22px;
-        font-weight: bold;
-        padding-top: 24px;
-        padding-bottom: 8px;
-        color: #6B98AF;
-    }
-
-    .presskit-p {
+    .person-role {
         padding-top: 8px;
-        padding-bottom: 8px;
-        font-size: 18px;
-        line-height: 28px;
     }
 
-    .presskit-p.block {
-
-        text-align: justify;
+    .icons {
+        display: flex;
     }
+
+    .social img {
+        width: 32px;
+        filter: invert(94%) sepia(2%) saturate(4420%) hue-rotate(174deg) brightness(89%) contrast(100%);
+        cursor: pointer;
+
+        transition: 0.1s;
+        padding: 8px;
+    }
+
+    .social img:hover {
+        transform: scale(1.1);
+        filter: invert(100%);
+    }
+
 </style>

@@ -17,7 +17,7 @@
             <img src="images/icedrop_new_br.svg" class="logo-part"/>
         </div>
 
-        <img src="images/icedrop_new_text.svg" class="logo-part-text"/>
+        <img src="images/icedrop_new_text_nogames.svg" class="logo-part-text"/>
     </div>
 </div>
 
