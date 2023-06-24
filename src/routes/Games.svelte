@@ -42,14 +42,20 @@
     </div>
 
     <div class="game">
-        <img src="images/spells.png" class="game-img"/>
+        <img src="images/spells2.png" class="game-img"/>
 
         <div class="game-content">
-            <div class="game-name">Unannounced wizard game</div>
+            <div class="game-name">1 Billion Spells</div>
             <div class="game-date">WIP</div>
 
             <div class="game-brief">
-                Be a little wizard, learn magic, cast big spells, protect the school.
+                Be a little wizard, learn magic, cast big spells, protect the school.<br><br>
+
+                An arena survival game where you create your own wacky creative spells with a node-programming system.
+            </div>
+
+            <div class="icons">
+                <a href="https://store.steampowered.com/app/2390410/1B_Spells/" target="_blank"><img src="images/steam.png" class="game-link-icon"></a>
             </div>
         </div>
     </div>
