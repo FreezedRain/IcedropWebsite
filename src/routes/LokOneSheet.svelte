@@ -1,6 +1,8 @@
 <div class="about">
     <div class="content">
+        <div class="logo-img-div">
     <img src="images/lok-digital/logo.png" class="logo-img"/>
+        </div>
 
     <div class="text">
         <b>A charmingly playful adventure of word and rule discovery.</b> <br><br>
@@ -83,6 +85,13 @@
 
     .content {
         max-width: 50%;
+
+    }
+
+    .logo-img-div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .logo-img {
@@ -134,6 +143,7 @@
         display: flex;
         padding-left: 32px;
         padding-right: 16px;
+        padding-bottom: 16px;
     }
 
     .footer-img {
@@ -144,6 +154,34 @@
     }
     .empty {
         flex-grow: 1;
+    }
+
+    @media (max-width: 1250px) {
+        .content {
+            max-width: 85%;
+        }
+        .text {
+
+            font-size: 1em;
+        }
+
+        .footer {
+            flex-direction: column;
+        }
+
+        .images {
+            flex-direction: column;
+        }
+
+        .image-box {
+            max-width: 100%;
+            display: flex;
+            flex-shrink: 1;
+        }
+
+        .text.list {
+            margin-left: -16px;
+        }
     }
 
 </style>
