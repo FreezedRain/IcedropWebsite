@@ -8,7 +8,7 @@
 
 <main>
 	<div class="main-body">
-		<div class="header">
+		<div class="header" id="header">
 			<div class="nav-menu">
 				<div class="menu-left">
 				<div class="menu-option">
