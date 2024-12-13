@@ -27,16 +27,17 @@
 
         <div class="game-content">
             <div class="game-name">LOK Digital</div>
-            <div class="game-date">ETA 2024</div>
+            <div class="game-date">11/12/2024</div>
 
             <div class="game-brief">
-                A digital adaptation of the puzzle book <b>LOK</b> by <b>Letibus Design</b>, developed alongside with its original creator, <b>Blaž Urban Gracar</b>.
+                A digital adaptation of the puzzle book <b>LOK</b> by <b>Letibus Design</b>, developed alongside with its original creator, <b>Blaž Urban Gracar</b>, and published by <b>Draknek&Friends</b>.
                 <br><br>
                 Solve cryptic word-search puzzles to guide the Lok towards the expansion of their civilisation.
             </div>
 
             <div class="icons">
                 <a href="https://store.steampowered.com/app/2207440/LOK_Digital/" target="_blank"><img src="images/steam.png" class="game-link-icon"></a>
+                <a href="https://draknek.itch.io/lok-digital" target="_blank"><img src="images/itchio.png" class="game-link-icon"></a>
                 <a href="https://lok-digital.com" target="_blank"><img src="images/website.png" class="game-link-icon"></a>
             </div>
         </div>
