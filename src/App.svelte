@@ -36,7 +36,7 @@
 				</div>
 				<div class="menu-right">
 					<div class="social">
-						<a href="https://twitter.com/IcedropGames" target="_blank"><img src="images/twitter.png"></a>
+						<a href="https://bsky.app/profile/icedropgames.bsky.social" target="_blank"><img src="images/bsky.png"></a>
 					</div>
 					<div class="social">
 						<a href="https://www.tiktok.com/@icedropgames" target="_blank"> <img src="images/tik-tok.png"></a>

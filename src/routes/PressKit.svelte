@@ -15,10 +15,7 @@
             <div class="t3">Info/Press Contact</div>
             <div class="presskit-p">icedropgames@gmail.com</div>
             <div class="t3">Studio Socials</div>
-            <div class="presskit-p"><a href="https://twitter.com/icedropgames" target="_blank"><u>twitter.com/icedropgames</u></a></div>
-            <div class="t3">Founder Socials</div>
-            <div class="presskit-p"><a href="https://twitter.com/freezed_ice" target="_blank"> <u>twitter.com/freezed_ice</u></a></div>
-            <div class="presskit-p"><a href="https://twitter.com/raindrinker_dev" target="_blank"><u>twitter.com/raindrinker_dev</u></a></div>
+            <div class="presskit-p"><a href="https://bsky.app/profile/icedropgames.bsky.social" target="_blank"><u>icedropgames bsky</u></a></div>
 
         </div>
         <div class="presskit-col-2">

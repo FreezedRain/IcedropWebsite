@@ -12,7 +12,21 @@
                     <a href="https://www.freezedice.com/" target="_blank"> <img src="images/website.png"></a>
                 </div>
                 <div class="social">
-                    <a href="https://twitter.com/freezed_ice" target="_blank"><img src="images/twitter.png"></a>
+                    <a href="https://bsky.app/profile/freezedice.bsky.social" target="_blank"><img src="images/bsky.png"></a>
+                </div>
+            </div>
+        </div>
+        <div class="person">
+            <img src="images/roig.png" class="person-img"/>
+            <div class="person-name">Jordi Roig</div>
+            <div class="person-nick">Roig</div>
+
+            <div class="icons">
+                <div class="social">
+                    <a href="https://bsky.app/profile/jroig24.bsky.social" target="_blank"><img src="images/bsky.png"></a>
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/jordi-roig-vilaseca/" target="_blank"><img src="images/linkedin.png"></a>
                 </div>
             </div>
         </div>
@@ -26,14 +40,17 @@
                     <a href="https://www.raindrinker.com/" target="_blank"><img src="images/website.png"></a>
                 </div>
                 <div class="social">
-                    <a href="https://twitter.com/Raindrinker_dev" target="_blank"><img src="images/twitter.png"></a>
+                    <a href="https://bsky.app/profile/raindrinker.bsky.social" target="_blank"><img src="images/bsky.png"></a>
+                </div>
+                <div class="social">
+                    <a href="https://www.linkedin.com/in/ferran-ruiz-sala-210130111/" target="_blank"><img src="images/linkedin.png"></a>
                 </div>
             </div>
         </div>
     </div>
 
     <div class="text">
-        <b>Icedrop Games</b> is a remote two-person gamedev team that makes little interesting games.
+        <b>Icedrop Games</b> is a remote three-people gamedev team that makes little interesting games.
 
         <br><br>
 
