@@ -44,6 +44,23 @@
     </div>
 
     <div class="game">
+        <img src="images/ultrapool.png" class="game-img"/>
+
+        <div class="game-content">
+            <div class="game-name">Ultrapool</div>
+            <div class="game-date">WIP</div>
+
+            <div class="game-brief">
+                A colorful pool-based roguelike with playful balls, mechanics and combos. <br><br> Pick your poison at the pool bar and get the highest scores.
+            </div>
+
+            <div class="icons">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="game">
         <img src="images/spells2.png" class="game-img"/>
 
         <div class="game-content">
